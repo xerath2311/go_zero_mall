@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8d55c07-e40e-4457-8224-0b0294e79a05" name="Default Changelist" comment="" />
+    <list default="true" id="b8d55c07-e40e-4457-8224-0b0294e79a05" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/product/api/etc/product.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/api/etc/product.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/product/api/internal/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/api/internal/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/product/api/internal/logic/createlogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/api/internal/logic/createlogic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/product/api/internal/logic/detaillogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/api/internal/logic/detaillogic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/product/api/internal/logic/removelogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/api/internal/logic/removelogic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/product/api/internal/logic/updatelogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/api/internal/logic/updatelogic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/product/api/internal/svc/servicecontext.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/api/internal/svc/servicecontext.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/product/rpc/etc/product.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/rpc/etc/product.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/product/rpc/internal/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/rpc/internal/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/product/rpc/internal/logic/createlogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/rpc/internal/logic/createlogic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/product/rpc/internal/logic/detaillogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/rpc/internal/logic/detaillogic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/product/rpc/internal/logic/removelogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/rpc/internal/logic/removelogic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/product/rpc/internal/logic/updatelogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/rpc/internal/logic/updatelogic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/product/rpc/internal/svc/servicecontext.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/rpc/internal/svc/servicecontext.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/test/etc/user.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/test/internal/config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/test/internal/logic/loginlogic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/test/internal/server/userserver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/test/internal/svc/servicecontext.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/test/remote/user.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/test/remote/user_grpc.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/test/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/test/user.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/test/user/user.go" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,11 +45,15 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="$PROJECT_DIR$/../../../../Program Files/Go" />
+  <component name="GOROOT" path="$PROJECT_DIR$/../../../../../Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="265I881nt7zhLO5kyfvbad3Zut2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,7 +65,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
