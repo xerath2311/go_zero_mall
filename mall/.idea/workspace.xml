@@ -5,31 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8d55c07-e40e-4457-8224-0b0294e79a05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/service/order/api/order.api" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/order/model/order.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/product/api/etc/product.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/api/etc/product.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/product/api/internal/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/api/internal/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/product/api/internal/logic/createlogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/api/internal/logic/createlogic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/product/api/internal/logic/detaillogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/api/internal/logic/detaillogic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/product/api/internal/logic/removelogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/api/internal/logic/removelogic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/product/api/internal/logic/updatelogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/api/internal/logic/updatelogic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/product/api/internal/svc/servicecontext.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/api/internal/svc/servicecontext.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/product/rpc/etc/product.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/rpc/etc/product.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/product/rpc/internal/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/rpc/internal/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/product/rpc/internal/logic/createlogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/rpc/internal/logic/createlogic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/product/rpc/internal/logic/detaillogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/rpc/internal/logic/detaillogic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/product/rpc/internal/logic/removelogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/rpc/internal/logic/removelogic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/product/rpc/internal/logic/updatelogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/rpc/internal/logic/updatelogic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/product/rpc/internal/svc/servicecontext.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/product/rpc/internal/svc/servicecontext.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/test/etc/user.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/test/internal/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/test/internal/logic/loginlogic.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/test/internal/server/userserver.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/test/internal/svc/servicecontext.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/test/remote/user.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/test/remote/user_grpc.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/test/user.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/test/user.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/test/user/user.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +19,7 @@
       <list>
         <option value="Go File" />
         <option value="Api Template" />
+        <option value="Api File" />
         <option value="Proto File" />
       </list>
     </option>
@@ -59,7 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultApiTemplateProperty" value="Api Template" />
+    <property name="DefaultApiTemplateProperty" value="Api File" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultProtoTemplateProperty" value="Proto File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -107,10 +86,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="368" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1647353140978" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1647353134414">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1647960018862">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1647353134414" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1647960018862" />
     <state x="405" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1647260418189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
