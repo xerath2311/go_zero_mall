@@ -15,11 +15,11 @@ CacheRedis:
 UserRpc:
   Etcd:
     Hosts:
-      - etcd: 2379
-      Key: user.rpc
+     - etcd: 2379
+    Key: user.rpc
 
 ProductRpc:
   Etcd:
     Hosts:
-      - etcd: 2379
-      Key: product.rpc
+     - etcd: 2379
+    Key: product.rpc
