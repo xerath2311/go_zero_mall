@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8d55c07-e40e-4457-8224-0b0294e79a05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service/order/api/order.api" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/order/model/order.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/order/model/ordermodel.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/order/model/ordermodel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/order/rpc/internal/logic/detaillogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/order/rpc/internal/logic/detaillogic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/order/rpc/internal/logic/listlogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/order/rpc/internal/logic/listlogic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/order/rpc/internal/logic/removelogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/order/rpc/internal/logic/removelogic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/order/rpc/internal/logic/updatelogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/order/rpc/internal/logic/updatelogic.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +27,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="$PROJECT_DIR$/../../../../../Program Files/Go" />
+  <component name="GOROOT" path="C:/Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -62,6 +65,10 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="707" y="296" key="#GOROOT" timestamp="1648014551450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="707" y="296" key="#GOROOT/0.0.1366.728@0.0.1366.728" timestamp="1648014551450" />
     <state x="275" y="4" key="#Plugins" timestamp="1647091102494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -78,6 +85,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="421" y="158" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1647337088366" />
+    <state x="695" y="121" key="FileChooserDialogImpl" timestamp="1648014491485">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="695" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1648014491485" />
     <state x="268" y="92" key="IDE.errors.dialog" timestamp="1646713944091">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

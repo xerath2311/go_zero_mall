@@ -2,6 +2,8 @@ package logic
 
 import (
 	"context"
+	"google.golang.org/grpc/status"
+	"mall/service/order/model"
 
 	"mall/service/order/rpc/internal/svc"
 	"mall/service/order/rpc/order"
@@ -24,7 +26,19 @@ func NewDetailLogic(ctx context.Context, svcCtx *svc.ServiceContext) *DetailLogi
 }
 
 func (l *DetailLogic) Detail(in *order.DetailRequest) (*order.DetailResponse, error) {
-	// todo: add your logic here and delete this line
+	res,err := l.svcCtx.OrderModel.FindOne(in.Id)
+	if err != nil {
+		if err == model.ErrNotFound {
+			return nil,status.Error(100,"订单不存在")
+		}
+		return nil,status.Error(500,err.Error())
+	}
 
-	return &order.DetailResponse{}, nil
+	return &order.DetailResponse{
+		Id: res.Id,
+		Uid: res.Uid,
+		Pid: res.Pid,
+		Amount: res.Amount,
+		Status: res.Status,
+	}, nil
 }
